@@ -1,0 +1,60 @@
+* {
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho_nav{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: blue;
+    height: 60px;
+    padding: 40px; 
+    width: 100%;
+}
+
+.texto{
+    background-color: blue;
+    color: white;
+    font-size: 25px
+}
+
+.texto a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 25px
+}
+
+.Termos {
+    background-color: white;
+    margin: 30px 150px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px gray;
+    color: black;
+}
+
+.Termos h2{
+    font-size: 24px;
+    text-align: center;
+    text-decoration:underline ;
+    margin-bottom: 20px;
+}
+
+.Termos p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    left: 855px;
+    margin-top: 400px;
+}
+
+footer p{
+    font-size: 15px;
+}

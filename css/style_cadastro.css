@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagens/Fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho_nav{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: blue;
+    height: 60px;
+    padding: 40px; 
+    width: 100%;
+}
+
+.texto{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+.texto a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    height: auto;
+    width: 100px;
+    background-color: blue;
+}
+
+.cadastro{
+    display: block;
+
+}
+
+.textocadastro{
+    border: 1px solid gray;
+    width: 520px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.divpai{
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.div2{
+    justify-content: center;
+    border: 1px solid gray;
+    display: flex;
+    background-color: white;
+    flex: 1;                 
+    height: 300px;        
+    margin-top: 105px;        
+    margin-right: 600px;
+    margin-left: 200px;      
+    border-radius: 17px;     
+    padding-top: 30px;
+    box-shadow: 5px 5px 5px 2px gray;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: none;
+}
+
+.escolhas{
+    height: 200px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.escolhas a:hover{
+    cursor: pointer;
+}
+
+.escolhas a{
+    font-size: 23px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+
+.formulario{
+    display: flex;
+}
+
+.primeira{
+    display: block;
+    margin: 20px 30px;
+}
+
+.segunda{
+    display: block;
+    margin: 20px 30px;
+}
+
+.label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label label{
+    background-color: white;
+}
+
+.input{
+    background-color: white;
+}
+
+.input input {
+    margin-bottom: 15px;
+    background-color: white;
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+select{
+    margin-bottom: 15px;
+    background-color: white;
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.botoesform{
+    margin-top: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.botoesform{
+    margin-top: 10px;
+    display: flex;
+    background-color: white;
+}
+
+button{
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="cabecalho_nav">
+                <div class="texto">BrTech</div>
+                <div class="texto">Instituto Tecnológico InovaTech</div>
+                <div class="texto"><a href="termos.html">Termos</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+
+            <div class="imagem">
+                <img src="imagens/logo.png">
+            </div>
+
+            <h2>LOGIN DE ACESSO</h2>
+
+            <form action="processa.php" method="POST">
+                <div class="label">
+                    <label for="nome">Nome</label>
+                </div>
+
+                <div class="input">
+                    <input type="text" id="nome" name="nome" placeholder="....." maxlength="10" required>
+                </div>
+
+                <div class="label">
+                    <label for="senha">Senha</label>
+                </div>
+
+                <div class="input">
+                    <input type="password" id="senha" name="senha" placeholder="....." maxlength="10" required>
+                </div>
+
+                <div>
+                    <input type="checkbox" required>
+                    <label for="">Li e concordo com os <a href="termos.html">Termos</a>.</label>
+                </div>
+
+                <div class="botao">
+                    <button type="submit">Confirmar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

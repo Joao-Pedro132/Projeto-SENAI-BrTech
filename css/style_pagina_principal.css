@@ -1,0 +1,263 @@
+* {
+    /* background-color: white; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagens/Fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho_nav{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: blue;
+    height: 60px;
+    padding: 40px; 
+    width: 100%;
+}
+
+.texto{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+.texto a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    height: auto;
+    width: 100px;
+    background-color: blue;
+}
+
+.inicio{
+    display: block;
+
+}
+
+.textoinicio{
+    border: 1px solid gray;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.divpai{
+    display: flex;
+}
+
+.div1{
+    display: flex;
+    height: 400px;
+    width: 400px; 
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: white;
+    flex: 1;                 
+    height: 500px;           
+    margin-top: 80px;        
+    margin-right: 300px;      
+    border-radius: 17px;
+    margin-left: 50px;     
+    padding: 20px;
+    box-shadow: 4px 4px 8px 4px gray;
+}
+
+.dashboard{
+    display: block;
+    height: 450px;
+    width: 100%;
+    
+}
+
+.dahsboardtabelas{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    gap: 180px;
+    margin-top: 25px;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.tabelausuarios{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+}
+
+.dahsboardtabelas a, .tabelausuarios a{
+    background-color: #1E40AF;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    text-align: center;
+}
+ 
+.tabelacartoes{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+}
+
+.dashboard1{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    gap: 280px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.dashboard2{
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    height: 125px;
+    justify-content: center;
+    gap: 280px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.dash01 p, .dash02 p, .dash03 p, .dash04 p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    margin-top: 5px;
+    font-size: 28px;
+    background-color: #1E40AF;
+    justify-content: center;
+    color: white;
+}
+
+.dash01 h1, .dash02 h1, .dash03 h1, .dash04 h1{
+    display: flex;
+    margin-left: 100px;
+    width: 100px;
+    margin-top: 5px;
+    font-size: 50px;
+    background-color: #1E40AF;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+}
+
+.dash01{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 120px;
+    width: 300px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+
+}
+
+.dash02{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 120px;
+    width: 300px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+}
+
+.dash03{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 120px;
+    width: 300px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+}
+
+.dash04{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 120px;
+    width: 300px;
+    background-color: #1E40AF;
+    border-radius: 20px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: none;
+}
+
+.escolhas{
+    height: 200px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.escolhas a:hover{
+    cursor: pointer;
+}
+
+.escolhas a{
+    font-size: 23px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
